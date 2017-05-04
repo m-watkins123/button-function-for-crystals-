@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<meta charset="utf-8">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/CSS/style.css">
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script src="assets/javascript/games.js" type="text/javascript"></script>
+    <title>Crystal Collector</title>
+</head>
+
+<body background="assets/images/mdlc-flag-na.jpg">
+    <div class="container">
+        <h1> Crystal Collector Time
+<small>
+</small>
+</h1>
+    </div>
+    <!--<div class="jumbotron">
+<h1>Crystal collector!</h1>
+<p>List of Instructions</p>
+</div -->
+    <div class="jumbotron" id="Instructions">
+        <div class="panel-heading">
+            <h3 class="panel-title">Instructions</h3>
+        </div>
+        <div class="panel-body">
+            you will see four crystals, a random number to which you will match, and your point box. In order to win the game, you must click the crystals in a way that causes your total points to match the random number given to you at the start of each round. The values behind each crystal differ from one another, and can only be discovered through clicking each crystal - they will, however, all have points ranging from one to twelve, only. The trick is, after you win (or lose!) a game, the values behind each crystal change, as well as the random number you are trying to match. If your total points yields a number as small as one point higher than the given number, you lose.
+        </div>
+    </div>
+    <br>
+    <div class="container">
+        <div class="panel panel-default" id="Match points">
+            <div class="panel-heading">
+                <h3 class="panel-title">Match Points</h3>
+            </div>
+        </div>
+        <div class="panel panel-default" id="points">
+            <div class="panel-heading">
+                <h3 class="panel-heading">Points Display</h3>
+            </div>
+            <div class="panel-body" id="Scoreboard">
+            </div>
+        </div>
+        <div class="panel panel-default" id="stats">
+            <div class="panel-heading">
+                <h3 class="panel-title">Stats</h3>
+            </div>
+        </div>
+        <div class="panel-body">
+            <span id="Wins">Wins</span>
+            <span id="Loses">Loses</span>
+        </div>
+        <div class=" Buttons">
+            <button type="button" class="btn btn-default btn-sm" id="buttonReset">Play Again?</button>
+        </div>
+        <div class="panel panel-warning" id="Buttons">
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-xs-6 col-sm-2 col-md-offset-2">
+                        <img src="assets/images/blue-button-for-web.jpg" class="crystals" id="bluecrystal">
+                    </div>
+                    <div class="col-xs-6 col-sm-2">
+                        <img src="assets/images/green-button-for-web.jpg" class="crystals" id="greencrystals">
+                    </div>
+                    <div class="col-xs-6 col-sm-2">
+                        <img src="assets/images/red-button-for-web.jpg" class="crystals" id="redcrystals">
+                    </div>
+                    <div class="col-xs-6 col-sm-2">
+                        <img src="assets/images/yellow-button-for-web.jpg" class="crystals" id="yellowcrystals">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="crystal-games"></script>
+</body>
+
+</html>
